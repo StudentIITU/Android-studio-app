@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".FirstPages.FirstPage">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonOnBoardingAction"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_39sdp"
+        android:textAlignment="center"
+        android:textColor="#5580ED"
+        android:textSize="18sp"
+        android:fontFamily="@font/monolisa_bold"
+        app:layout_constraintTop_toTopOf="@id/Botton_background"
+        app:layout_constraintBottom_toBottomOf="@id/Botton_background"
+        app:layout_constraintEnd_toEndOf="@id/Botton_background"
+        app:layout_constraintStart_toStartOf="@id/Botton_background"
+
+        />
+
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/OnBoardingViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutOnBoardingIndicators"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_28sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toEndOf="@+id/Botton_background"
+        app:layout_constraintStart_toStartOf="@+id/Botton_background"
+        app:layout_constraintTop_toBottomOf="@id/Botton_background" />
+
+
+
+    <ImageView
+        android:id="@+id/Botton_background"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginBottom="@dimen/_162sdp"
+        android:layout_marginEnd="@dimen/_92sdp"
+        android:background="@drawable/background1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/good_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:background="@drawable/gray_background_for_page_1"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

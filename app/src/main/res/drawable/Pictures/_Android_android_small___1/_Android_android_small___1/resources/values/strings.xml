@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- android_small___1 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="crypto_string">Crypto </string>
+	<string name="messenger_string">Messenger</string>
+	<string name="welcome_to_our_messenger_string">Welcome to our messenger</string>
+	<string name="sign_up_string">Sign Up</string>
+</resources>

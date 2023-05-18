@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646724108893",
+    "project_id": "damirapplication",
+    "storage_bucket": "damirapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646724108893:android:355b2a2bd8fae0a8e483b4",
+        "android_client_info": {
+          "package_name": "com.example.damirapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646724108893-49koo4h55kcj4imqdk81jf2tc3rffk2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.damirapplication",
+            "certificate_hash": "9297fdc01d855f9efe647533671f12950501a20e"
+          }
+        },
+        {
+          "client_id": "646724108893-13i6q8gm4sjoqacmgevspn7jejpcjd8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM6Btof74tA-FFHF7jVF6rNR_vtSGJPmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646724108893-13i6q8gm4sjoqacmgevspn7jejpcjd8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

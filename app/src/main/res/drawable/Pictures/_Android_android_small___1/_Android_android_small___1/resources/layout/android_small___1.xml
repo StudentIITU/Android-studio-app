@@ -1,0 +1,112 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		android_small___1
+	 *	@date 		Sunday 09th of April 2023 04:03:21 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/android_small___1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__android_small___1"
+				android:background="@drawable/_bg__android_small___1_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="360dp"
+				android:layout_height="640dp" />
+
+			<View   android:id="@+id/rectangle_3"
+				android:background="@drawable/rectangle_3_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="360dp"
+				android:layout_height="233dp" />
+
+			<View   android:id="@+id/rectangle_4"
+				android:background="@drawable/rectangle_4_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="498dp"
+				android:layout_width="360dp"
+				android:layout_height="142dp" />
+
+			<ImageView android:id="@+id/_5225447_1"
+				android:src="@drawable/_5225447_1"
+				android:contentDescription="_5225447_1"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="360dp"
+				android:layout_height="640dp" />
+
+			<TextView android:id="@+id/crypto"
+				android:fontFamily="MonoLisa"
+				android:textStyle="bold"
+				android:textSize="50sp"
+				android:textColor="@color/crypto_color"
+				android:layout_marginLeft="77dp"
+				android:layout_marginTop="234dp"
+				android:layout_width="259.88dp"
+				android:layout_height="70.71dp"
+				android:text="@string/crypto_string"
+				 />
+
+			<TextView android:id="@+id/messenger"
+				android:fontFamily="MonoLisa"
+				android:textStyle="bold"
+				android:textSize="50sp"
+				android:textColor="@color/messenger_color"
+				android:layout_marginLeft="33dp"
+				android:layout_marginTop="301dp"
+				android:layout_width="434dp"
+				android:layout_height="164dp"
+				android:text="@string/messenger_string"
+				 />
+
+			<TextView android:id="@+id/welcome_to_our_messenger"
+				android:fontFamily="MonoLisa"
+				android:textStyle="bold"
+				android:textSize="18sp"
+				android:textColor="@color/_bg__android_small___1_color"
+				android:layout_marginLeft="41dp"
+				android:layout_marginTop="366dp"
+				android:layout_width="407dp"
+				android:layout_height="35dp"
+				android:text="@string/welcome_to_our_messenger_string"
+				 />
+
+			<View   android:id="@+id/rectangle_5"
+				android:background="@drawable/rectangle_5_shape"
+				 android:layout_marginStart="72dp"
+				android:layout_marginTop="399dp"
+				android:layout_width="210dp"
+				android:layout_height="68dp" />
+
+			<TextView android:id="@+id/sign_up"
+				android:fontFamily="MonoLisa"
+				android:textSize="28sp"
+				android:textColor="@color/sign_up_color"
+				android:layout_marginLeft="117dp"
+				android:layout_marginTop="416dp"
+				android:layout_width="159dp"
+				android:layout_height="54dp"
+				android:text="@string/sign_up_string"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
